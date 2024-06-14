@@ -1,0 +1,48 @@
+.btn-class{
+  background-color: #2E3079;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  width: -webkit-fill-available;
+  line-height: 1px;
+  height: auto;
+  }
+
+  .btn-class-hover:hover{
+    background-color: #2E3079;
+    color:  white;
+    height: auto;
+  }
+  .content-container {
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+  }
+  
+  @media only screen and (max-width: 660px) {
+  .mobile-view{
+  flex-direction: row !important;
+  }
+  .headerUi{
+  align-items: start !important;
+  gap:10px;
+  }
+  .searchUi{
+  left: 0px !important;
+  }
+  .headerSearch{
+  margin-left: 0px;
+  }
+  .btn-class{
+  height: 40px;
+  }
+  
+  .button_div{
+  flex-wrap: wrap;
+  }
+  .search_icon{
+    margin-left: -12px !important;
+  }
+  .headerSearch{
+    margin: 15px 0px;
+  }
+  }
